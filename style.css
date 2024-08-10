@@ -26,6 +26,12 @@ body{
 .card-1{
     position:relative
 }
+.cart-item {
+    width: 16rem;
+}
+.w{
+    width: 40%;
+}
 .card-btn{
     position: absolute;
     left: 40px;
@@ -47,9 +53,6 @@ h6{
     height: 30%;
     border-radius: 10px;
 }
-.w{
-    width: 40%;
-}
 h4{
     color: var(--red);
     font-weight: 700;
@@ -61,3 +64,40 @@ h4{
     text-align: center;
     color: var(--rose-500);
 }
+
+    @media (max-width: 768px) {
+        h2{
+            font-size: 50px;
+        }
+        .row-sm {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .cart-item {
+            width: 20rem;
+        }
+        .rounded{
+            width: 100%;
+        }
+        .section-2-w{
+            width: 300px;
+            margin: auto;
+        }
+        .card-1{
+            position:relative
+        }
+        .card-btn{
+            position: absolute;
+            left: 70px;
+            top: 180px;
+        }
+        .section-2-w{
+            width: 95%;
+            margin-top: 2rem;
+            padding: 9px 5px;
+        }
+        .w{
+            width: 60%;
+        }
+      }
